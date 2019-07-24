@@ -15,10 +15,15 @@ CREATE TABLE products (
 );
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("notebook", "office supplies", 4, 8), ("toilet paper", "household", 8, 15), 
-("peanut butter", "grocery", 3, 5), ("ruler", "office supplies", 3, 5), 
-("milk", "dairy", 4, 10), ("vitamins", "health", 16, 8);
-("laundry detergent", "grocery", 14, 8), ("chocolate", "grocery", 2, 10),
-("headphones", "electronics", 179, 5), ("cereal", "grocery", 4, 6);
+VALUES ("notebook", "office supplies", 4, 8), 
+("toilet paper", "household", 8, 15), 
+("peanut butter", "grocery", 3, 5), 
+("ruler", "office supplies", 3, 5), 
+("milk", "dairy", 4, 10), 
+("vitamins", "health", 16, 8);
+("laundry detergent", "grocery", 14, 8), 
+("chocolate", "grocery", 2, 10),
+("headphones", "electronics", 179, 5), 
+("cereal", "grocery", 4, 6);
 
 
